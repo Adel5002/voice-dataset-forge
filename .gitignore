@@ -1,0 +1,49 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+.env.*
+*.token
+
+# Runtime / generated ML artifacts
+.cache/
+.vdf_state.json
+processing.log
+statistics.json
+dataset_report.txt
+settings.json
+rejected/
+audio/
+metadata.csv
+metadata_extended.csv
+metadata.jsonl
+
+# Large media / model artifacts (keep private training material out of git)
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.aac
+*.ogg
+*.opus
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.avi
+*.mka
+*.npy
+*.pt
+*.pth
+*.ckpt

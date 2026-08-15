@@ -1,0 +1,9 @@
+# Recommended Python: 3.11 (64-bit)
+PySide6>=6.8,<7
+pyannote.audio>=4.0,<5
+faster-whisper>=1.2,<2
+demucs>=4.0.1,<5
+soundfile>=0.12
+psutil>=6,<8
+
+numpy>=1.26,<3

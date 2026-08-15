@@ -1,0 +1,9 @@
+[project]
+name = "voice-dataset-forge"
+version = "1.1.0"
+description = "Desktop dataset builder for extracting a reference speaker from stream recordings"
+requires-python = ">=3.10,<3.13"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
