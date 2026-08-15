@@ -193,6 +193,7 @@ Best for smoke tests and quick extraction.
 - speaker diarization + reference matching;
 - softer filtering;
 - diarization windows up to ~5 minutes;
+- faster-whisper `small` when transcription is enabled;
 - lowest processing cost.
 
 Use this first when checking a new installation.
@@ -353,6 +354,7 @@ This keeps the master dataset useful for voice-conversion workflows where transc
 
 Transcription is optional and powered by **faster-whisper**.
 
+- **Fast:** Whisper `small`
 - **Balanced:** Whisper `turbo`
 - **Maximum:** Whisper `large-v3`
 
